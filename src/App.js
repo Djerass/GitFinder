@@ -6,6 +6,7 @@ import FontawesomeNavbar from "./components/FontawesomeNavbar/FontawesomeNavbar"
 import Index from "./components/Index/Index";
 import About from "./components/About/About";
 import User from "./components/User/User";
+import NotFound from "./components/NotFound/NotFound";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/" exact component={Index} />
         <Route path="/about" component={About} />
         <Route path="/user/:login" exact component={User} />
+        <Route component={NotFound} />
       </div>
     </Router>
   );
