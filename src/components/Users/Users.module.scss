@@ -1,0 +1,16 @@
+@import "../../shared_styles/container";
+
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn_clear {
+  width: 100%;
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}

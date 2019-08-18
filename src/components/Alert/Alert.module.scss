@@ -1,0 +1,20 @@
+.alert {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 2px solid #f5c6cb;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  button {
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+  }
+  i {
+    color: #721c24;
+  }
+}
